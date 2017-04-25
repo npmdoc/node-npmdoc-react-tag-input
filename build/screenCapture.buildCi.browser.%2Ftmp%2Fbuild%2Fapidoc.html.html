@@ -1,0 +1,889 @@
+<html><head></head><body><div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a href="https://github.com/prakhar1989/react-tags#readme">react-tag-input (v4.7.1)</a>
+</h1>
+<h4>React tags is a fantastically simple tagging component for your React projects</h4>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-tag-input">module react-tag-input</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-tag-input.WithContext">
+            function <span class="apidocSignatureSpan">react-tag-input.</span>WithContext
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-tag-input.WithOutContext">
+            function <span class="apidocSignatureSpan">react-tag-input.</span>WithOutContext
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">react-tag-input.</span>Keys</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">react-tag-input.</span>WithContext.PropTypes</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">react-tag-input.</span>WithContext.childContextTypes</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-tag-input.WithContext">module react-tag-input.WithContext</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-tag-input.WithContext.WithContext">
+            function <span class="apidocSignatureSpan">react-tag-input.</span>WithContext
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-tag-input.WithContext.DecoratedComponent">
+            function <span class="apidocSignatureSpan">react-tag-input.WithContext.</span>DecoratedComponent
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">react-tag-input.WithContext.</span>PropTypes</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">react-tag-input.WithContext.</span>childContextTypes</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">react-tag-input.WithContext.</span>displayName</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-tag-input.WithContext.PropTypes">module react-tag-input.WithContext.PropTypes</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-tag-input.WithContext.PropTypes.allowDeleteFromEmptyInput">
+            function <span class="apidocSignatureSpan">react-tag-input.WithContext.PropTypes.</span>allowDeleteFromEmptyInput
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-tag-input.WithContext.PropTypes.autocomplete">
+            function <span class="apidocSignatureSpan">react-tag-input.WithContext.PropTypes.</span>autocomplete
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-tag-input.WithContext.PropTypes.autofocus">
+            function <span class="apidocSignatureSpan">react-tag-input.WithContext.PropTypes.</span>autofocus
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-tag-input.WithContext.PropTypes.classNames">
+            function <span class="apidocSignatureSpan">react-tag-input.WithContext.PropTypes.</span>classNames
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-tag-input.WithContext.PropTypes.delimiters">
+            function <span class="apidocSignatureSpan">react-tag-input.WithContext.PropTypes.</span>delimiters
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-tag-input.WithContext.PropTypes.handleAddition">
+            function <span class="apidocSignatureSpan">react-tag-input.WithContext.PropTypes.</span>handleAddition
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-tag-input.WithContext.PropTypes.handleDelete">
+            function <span class="apidocSignatureSpan">react-tag-input.WithContext.PropTypes.</span>handleDelete
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-tag-input.WithContext.PropTypes.handleDrag">
+            function <span class="apidocSignatureSpan">react-tag-input.WithContext.PropTypes.</span>handleDrag
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-tag-input.WithContext.PropTypes.handleFilterSuggestions">
+            function <span class="apidocSignatureSpan">react-tag-input.WithContext.PropTypes.</span>handleFilterSuggestions
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-tag-input.WithContext.PropTypes.handleInputBlur">
+            function <span class="apidocSignatureSpan">react-tag-input.WithContext.PropTypes.</span>handleInputBlur
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-tag-input.WithContext.PropTypes.handleInputChange">
+            function <span class="apidocSignatureSpan">react-tag-input.WithContext.PropTypes.</span>handleInputChange
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-tag-input.WithContext.PropTypes.id">
+            function <span class="apidocSignatureSpan">react-tag-input.WithContext.PropTypes.</span>id
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-tag-input.WithContext.PropTypes.inline">
+            function <span class="apidocSignatureSpan">react-tag-input.WithContext.PropTypes.</span>inline
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-tag-input.WithContext.PropTypes.labelField">
+            function <span class="apidocSignatureSpan">react-tag-input.WithContext.PropTypes.</span>labelField
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-tag-input.WithContext.PropTypes.maxLength">
+            function <span class="apidocSignatureSpan">react-tag-input.WithContext.PropTypes.</span>maxLength
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-tag-input.WithContext.PropTypes.minQueryLength">
+            function <span class="apidocSignatureSpan">react-tag-input.WithContext.PropTypes.</span>minQueryLength
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-tag-input.WithContext.PropTypes.name">
+            function <span class="apidocSignatureSpan">react-tag-input.WithContext.PropTypes.</span>name
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-tag-input.WithContext.PropTypes.placeholder">
+            function <span class="apidocSignatureSpan">react-tag-input.WithContext.PropTypes.</span>placeholder
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-tag-input.WithContext.PropTypes.readOnly">
+            function <span class="apidocSignatureSpan">react-tag-input.WithContext.PropTypes.</span>readOnly
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-tag-input.WithContext.PropTypes.removeComponent">
+            function <span class="apidocSignatureSpan">react-tag-input.WithContext.PropTypes.</span>removeComponent
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-tag-input.WithContext.PropTypes.shouldRenderSuggestions">
+            function <span class="apidocSignatureSpan">react-tag-input.WithContext.PropTypes.</span>shouldRenderSuggestions
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-tag-input.WithContext.PropTypes.suggestions">
+            function <span class="apidocSignatureSpan">react-tag-input.WithContext.PropTypes.</span>suggestions
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-tag-input.WithContext.childContextTypes">module react-tag-input.WithContext.childContextTypes</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-tag-input.WithContext.childContextTypes.dragDropManager">
+            function <span class="apidocSignatureSpan">react-tag-input.WithContext.childContextTypes.</span>dragDropManager
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-tag-input" id="apidoc.module.react-tag-input">module react-tag-input</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-tag-input.WithContext" id="apidoc.element.react-tag-input.WithContext">
+        function <span class="apidocSignatureSpan">react-tag-input.</span>WithContext
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function DragDropContextContainer() {
+  _classCallCheck(this, DragDropContextContainer);
+
+  return _possibleConstructorReturn(this, (DragDropContextContainer.__proto__ || Object.getPrototypeOf(DragDropContextContainer)).
+apply(this, arguments));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-tag-input.WithOutContext" id="apidoc.element.react-tag-input.WithOutContext">
+        function <span class="apidocSignatureSpan">react-tag-input.</span>WithOutContext
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function ReactTags(props) {
+  _classCallCheck(this, ReactTags);
+
+  var _this = _possibleConstructorReturn(this, (ReactTags.__proto__ || Object.getPrototypeOf(ReactTags)).call(this, props));
+
+  _this.state = {
+    suggestions: _this.props.suggestions,
+    query: "",
+    selectedIndex: -1,
+    selectionMode: false
+  };
+
+  _this.handleBlur = _this.handleBlur.bind(_this);
+  _this.handleKeyDown = _this.handleKeyDown.bind(_this);
+  _this.handleChange = _this.handleChange.bind(_this);
+  _this.moveTag = _this.moveTag.bind(_this);
+  _this.handlePaste = _this.handlePaste.bind(_this);
+  _this.resetAndFocusInput = _this.resetAndFocusInput.bind(_this);
+  _this.handleSuggestionHover = _this.handleSuggestionHover.bind(_this);
+  _this.handleSuggestionClick = _this.handleSuggestionClick.bind(_this);
+  return _this;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-tag-input.WithContext" id="apidoc.module.react-tag-input.WithContext">module react-tag-input.WithContext</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-tag-input.WithContext.WithContext" id="apidoc.element.react-tag-input.WithContext.WithContext">
+        function <span class="apidocSignatureSpan">react-tag-input.</span>WithContext
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function DragDropContextContainer() {
+  _classCallCheck(this, DragDropContextContainer);
+
+  return _possibleConstructorReturn(this, (DragDropContextContainer.__proto__ || Object.getPrototypeOf(DragDropContextContainer)).
+apply(this, arguments));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-tag-input.WithContext.DecoratedComponent" id="apidoc.element.react-tag-input.WithContext.DecoratedComponent">
+        function <span class="apidocSignatureSpan">react-tag-input.WithContext.</span>DecoratedComponent
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function ReactTags(props) {
+  _classCallCheck(this, ReactTags);
+
+  var _this = _possibleConstructorReturn(this, (ReactTags.__proto__ || Object.getPrototypeOf(ReactTags)).call(this, props));
+
+  _this.state = {
+    suggestions: _this.props.suggestions,
+    query: "",
+    selectedIndex: -1,
+    selectionMode: false
+  };
+
+  _this.handleBlur = _this.handleBlur.bind(_this);
+  _this.handleKeyDown = _this.handleKeyDown.bind(_this);
+  _this.handleChange = _this.handleChange.bind(_this);
+  _this.moveTag = _this.moveTag.bind(_this);
+  _this.handlePaste = _this.handlePaste.bind(_this);
+  _this.resetAndFocusInput = _this.resetAndFocusInput.bind(_this);
+  _this.handleSuggestionHover = _this.handleSuggestionHover.bind(_this);
+  _this.handleSuggestionClick = _this.handleSuggestionClick.bind(_this);
+  return _this;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-tag-input.WithContext.PropTypes" id="apidoc.module.react-tag-input.WithContext.PropTypes">module react-tag-input.WithContext.PropTypes</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-tag-input.WithContext.PropTypes.allowDeleteFromEmptyInput" id="apidoc.element.react-tag-input.WithContext.PropTypes.allowDeleteFromEmptyInput">
+        function <span class="apidocSignatureSpan">react-tag-input.WithContext.PropTypes.</span>allowDeleteFromEmptyInput
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">allowDeleteFromEmptyInput = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-tag-input.WithContext.PropTypes.autocomplete" id="apidoc.element.react-tag-input.WithContext.PropTypes.autocomplete">
+        function <span class="apidocSignatureSpan">react-tag-input.WithContext.PropTypes.</span>autocomplete
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">autocomplete = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-tag-input.WithContext.PropTypes.autofocus" id="apidoc.element.react-tag-input.WithContext.PropTypes.autofocus">
+        function <span class="apidocSignatureSpan">react-tag-input.WithContext.PropTypes.</span>autofocus
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">autofocus = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-tag-input.WithContext.PropTypes.classNames" id="apidoc.element.react-tag-input.WithContext.PropTypes.classNames">
+        function <span class="apidocSignatureSpan">react-tag-input.WithContext.PropTypes.</span>classNames
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">classNames = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-tag-input.WithContext.PropTypes.delimiters" id="apidoc.element.react-tag-input.WithContext.PropTypes.delimiters">
+        function <span class="apidocSignatureSpan">react-tag-input.WithContext.PropTypes.</span>delimiters
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">delimiters = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-tag-input.WithContext.PropTypes.handleAddition" id="apidoc.element.react-tag-input.WithContext.PropTypes.handleAddition">
+        function <span class="apidocSignatureSpan">react-tag-input.WithContext.PropTypes.</span>handleAddition
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">handleAddition = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+      return String.fromCharCode(96 &lt;= delimiter ? chrCode : delimiter);
+    }).join(""));
+
+    var clipboardData = e.clipboardData || window.clipboardData;
+    var string = clipboardData.getData("text");
+    var regExp = new RegExp("[" + delimiterChars + "]+");
+    string.split(regExp).forEach(function (tag) {
+      return _this2.props.<span class="apidocCodeKeywordSpan">handleAddition</span>(tag);
+    });
+  }
+}, {
+  key: "addTag",
+  value: function addTag(tag) {
+    if (this.props.autocomplete) {
+      var possibleMatches = this.filteredSuggestions(tag, this.props.suggestions);
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-tag-input.WithContext.PropTypes.handleDelete" id="apidoc.element.react-tag-input.WithContext.PropTypes.handleDelete">
+        function <span class="apidocSignatureSpan">react-tag-input.WithContext.PropTypes.</span>handleDelete
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">handleDelete = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+      suggestions: suggestions,
+      classNames: _extends({}, DefaultClassNames, props.classNames)
+    });
+  }
+}, {
+  key: "handleDelete",
+  value: function handleDelete(i, e) {
+    this.props.<span class="apidocCodeKeywordSpan">handleDelete</span>(i);
+    this.setState({ query: "" });
+    this.resetAndFocusInput();
+  }
+}, {
+  key: "handleChange",
+  value: function handleChange(e) {
+    if (this.props.handleInputChange) {
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-tag-input.WithContext.PropTypes.handleDrag" id="apidoc.element.react-tag-input.WithContext.PropTypes.handleDrag">
+        function <span class="apidocSignatureSpan">react-tag-input.WithContext.PropTypes.</span>handleDrag
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">handleDrag = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+var tags = this.props.tags;
+
+// locate tags
+var dragTag = tags[dragIndex];
+
+// call handler with the index of the dragged tag
+// and the tag that is hovered
+this.props.<span class="apidocCodeKeywordSpan">handleDrag</span>(dragTag, dragIndex, hoverIndex);
+    }
+  }, {
+    key: "render",
+    value: function render() {
+var _this3 = this;
+
+var moveTag = this.props.handleDrag ? this.moveTag : null;
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-tag-input.WithContext.PropTypes.handleFilterSuggestions" id="apidoc.element.react-tag-input.WithContext.PropTypes.handleFilterSuggestions">
+        function <span class="apidocSignatureSpan">react-tag-input.WithContext.PropTypes.</span>handleFilterSuggestions
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">handleFilterSuggestions = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  value: function componentDidMount() {
+    this.resetAndFocusInput();
+  }
+}, {
+  key: "filteredSuggestions",
+  value: function filteredSuggestions(query, suggestions) {
+    if (this.props.handleFilterSuggestions) {
+      return this.props.<span class="apidocCodeKeywordSpan">handleFilterSuggestions</span>(query, suggestions);
+    }
+
+    return suggestions.filter(function (item) {
+      return item.toLowerCase().indexOf(query.toLowerCase()) === 0;
+    });
+  }
+}, {
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-tag-input.WithContext.PropTypes.handleInputBlur" id="apidoc.element.react-tag-input.WithContext.PropTypes.handleInputBlur">
+        function <span class="apidocSignatureSpan">react-tag-input.WithContext.PropTypes.</span>handleInputBlur
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">handleInputBlur = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    });
+  }
+}, {
+  key: "handleBlur",
+  value: function handleBlur(e) {
+    var value = e.target.value.trim();
+    if (this.props.handleInputBlur) {
+      this.props.<span class="apidocCodeKeywordSpan">handleInputBlur</span>(value);
+      this.textInput.value = "";
+    }
+  }
+}, {
+  key: "handleKeyDown",
+  value: function handleKeyDown(e) {
+    var _state = this.state,
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-tag-input.WithContext.PropTypes.handleInputChange" id="apidoc.element.react-tag-input.WithContext.PropTypes.handleInputChange">
+        function <span class="apidocSignatureSpan">react-tag-input.WithContext.PropTypes.</span>handleInputChange
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">handleInputChange = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+this.setState({ query: "" });
+this.resetAndFocusInput();
+    }
+  }, {
+    key: "handleChange",
+    value: function handleChange(e) {
+if (this.props.handleInputChange) {
+  this.props.<span class="apidocCodeKeywordSpan">handleInputChange</span>(e.target.value.trim());
+}
+
+var query = e.target.value.trim();
+var suggestions = this.filteredSuggestions(query, this.props.suggestions);
+
+var selectedIndex = this.state.selectedIndex;
+if (selectedIndex &gt;= suggestions.length) {
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-tag-input.WithContext.PropTypes.id" id="apidoc.element.react-tag-input.WithContext.PropTypes.id">
+        function <span class="apidocSignatureSpan">react-tag-input.WithContext.PropTypes.</span>id
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">id = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-tag-input.WithContext.PropTypes.inline" id="apidoc.element.react-tag-input.WithContext.PropTypes.inline">
+        function <span class="apidocSignatureSpan">react-tag-input.WithContext.PropTypes.</span>inline
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">inline = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-tag-input.WithContext.PropTypes.labelField" id="apidoc.element.react-tag-input.WithContext.PropTypes.labelField">
+        function <span class="apidocSignatureSpan">react-tag-input.WithContext.PropTypes.</span>labelField
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">labelField = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-tag-input.WithContext.PropTypes.maxLength" id="apidoc.element.react-tag-input.WithContext.PropTypes.maxLength">
+        function <span class="apidocSignatureSpan">react-tag-input.WithContext.PropTypes.</span>maxLength
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">maxLength = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-tag-input.WithContext.PropTypes.minQueryLength" id="apidoc.element.react-tag-input.WithContext.PropTypes.minQueryLength">
+        function <span class="apidocSignatureSpan">react-tag-input.WithContext.PropTypes.</span>minQueryLength
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">minQueryLength = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-tag-input.WithContext.PropTypes.name" id="apidoc.element.react-tag-input.WithContext.PropTypes.name">
+        function <span class="apidocSignatureSpan">react-tag-input.WithContext.PropTypes.</span>name
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">name = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-tag-input.WithContext.PropTypes.placeholder" id="apidoc.element.react-tag-input.WithContext.PropTypes.placeholder">
+        function <span class="apidocSignatureSpan">react-tag-input.WithContext.PropTypes.</span>placeholder
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">placeholder = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-tag-input.WithContext.PropTypes.readOnly" id="apidoc.element.react-tag-input.WithContext.PropTypes.readOnly">
+        function <span class="apidocSignatureSpan">react-tag-input.WithContext.PropTypes.</span>readOnly
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">readOnly = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-tag-input.WithContext.PropTypes.removeComponent" id="apidoc.element.react-tag-input.WithContext.PropTypes.removeComponent">
+        function <span class="apidocSignatureSpan">react-tag-input.WithContext.PropTypes.</span>removeComponent
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">removeComponent = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-tag-input.WithContext.PropTypes.shouldRenderSuggestions" id="apidoc.element.react-tag-input.WithContext.PropTypes.shouldRenderSuggestions">
+        function <span class="apidocSignatureSpan">react-tag-input.WithContext.PropTypes.</span>shouldRenderSuggestions
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">shouldRenderSuggestions = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-tag-input.WithContext.PropTypes.suggestions" id="apidoc.element.react-tag-input.WithContext.PropTypes.suggestions">
+        function <span class="apidocSignatureSpan">react-tag-input.WithContext.PropTypes.</span>suggestions
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">suggestions = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-tag-input.WithContext.childContextTypes" id="apidoc.module.react-tag-input.WithContext.childContextTypes">module react-tag-input.WithContext.childContextTypes</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-tag-input.WithContext.childContextTypes.dragDropManager" id="apidoc.element.react-tag-input.WithContext.childContextTypes.dragDropManager">
+        function <span class="apidocSignatureSpan">react-tag-input.WithContext.childContextTypes.</span>dragDropManager
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">dragDropManager = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
+</body></html>
